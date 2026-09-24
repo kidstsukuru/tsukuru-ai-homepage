@@ -108,9 +108,11 @@
 
         <div class="download-panel reveal">
           <div class="download-meta">
-            <div class="version" id="version-label">v0.2.0</div>
+            <div class="version" id="version-label">v0.2.1</div>
             <p id="release-note">
-              インストール形式の配布です。OS に合わせて選んでください。
+              Mac は DMG → Applications へ。もし「壊れている」と出たら、ターミナルで
+              <code>xattr -cr /Applications/ツクルAI.app</code>
+              を実行するか、DMG 内の「初回だけ実行」を使ってください。
             </p>
           </div>
 
@@ -118,15 +120,15 @@
             <a
               class="btn btn-download"
               id="download-mac"
-              href="https://github.com/kidstsukuru/tsukuru-ai-homepage/releases/download/v0.2.0/TsukuruAI-0.2.0-mac.dmg"
+              href="https://github.com/kidstsukuru/tsukuru-ai-homepage/releases/download/v0.2.1/TsukuruAI-0.2.1-mac.dmg"
             >
               <span class="dl-os">Mac</span>
-              <span class="dl-label">DMG をダウンロード → Applications へ</span>
+              <span class="dl-label">DMG → Applications へドラッグ</span>
             </a>
             <a
               class="btn btn-download"
               id="download-win"
-              href="https://github.com/kidstsukuru/tsukuru-ai-homepage/releases/download/v0.2.0/TsukuruAI-0.2.0-win-setup.exe"
+              href="https://github.com/kidstsukuru/tsukuru-ai-homepage/releases/download/v0.2.1/TsukuruAI-0.2.1-win-setup.exe"
             >
               <span class="dl-os">Windows</span>
               <span class="dl-label">セットアップを実行してインストール</span>

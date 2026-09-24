@@ -63,7 +63,7 @@ async function loadManifest() {
             os === "win"
               ? "Windows 向けを強調しています。セットアップを実行してインストールしてください。"
               : os === "mac"
-                ? "Mac 向けを強調しています。DMG を開き、Applications へドラッグしてください。"
+                ? "Mac 向けを強調しています。Applications へドラッグ後、「壊れている」と出たら xattr -cr /Applications/ツクルAI.app を実行してください。"
                 : "Mac は DMG、Windows はセットアップです。";
           status.classList.add("is-ready");
         }

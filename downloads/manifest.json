@@ -1,21 +1,21 @@
 {
-  "version": "0.2.0",
-  "updatedAt": "2026-09-24T09:06:29.057232Z",
-  "note": "Mac は DMG を開き Applications へドラッグ。Windows はセットアップを実行。APIキー設定は不要です。未署名のため警告が出たら許可してください。",
+  "version": "0.2.1",
+  "updatedAt": "2026-09-24T14:21:38.102597Z",
+  "note": "Mac: DMG→Applications。『壊れている』と出たらターミナルで xattr -cr /Applications/ツクルAI.app か、DMG内『初回だけ実行』。Windows: セットアップ実行。APIキー設定不要。",
   "files": {
     "mac": {
-      "path": "https://github.com/kidstsukuru/tsukuru-ai-homepage/releases/download/v0.2.0/TsukuruAI-0.2.0-mac.dmg",
-      "filename": "TsukuruAI-0.2.0-mac.dmg",
-      "label": "TsukuruAI-0.2.0-mac.dmg（Applications へドラッグ）",
-      "bytes": 191212799,
+      "path": "https://github.com/kidstsukuru/tsukuru-ai-homepage/releases/download/v0.2.1/TsukuruAI-0.2.1-mac.dmg",
+      "filename": "TsukuruAI-0.2.1-mac.dmg",
+      "label": "TsukuruAI-0.2.1-mac.dmg（Applications へドラッグ）",
+      "bytes": 191211739,
       "platform": "mac",
       "kind": "dmg"
     },
     "win": {
-      "path": "https://github.com/kidstsukuru/tsukuru-ai-homepage/releases/download/v0.2.0/TsukuruAI-0.2.0-win-setup.exe",
-      "filename": "TsukuruAI-0.2.0-win-setup.exe",
-      "label": "TsukuruAI-0.2.0-win-setup.exe（インストーラー）",
-      "bytes": 147401667,
+      "path": "https://github.com/kidstsukuru/tsukuru-ai-homepage/releases/download/v0.2.1/TsukuruAI-0.2.1-win-setup.exe",
+      "filename": "TsukuruAI-0.2.1-win-setup.exe",
+      "label": "TsukuruAI-0.2.1-win-setup.exe（インストーラー）",
+      "bytes": 147402678,
       "platform": "win",
       "kind": "nsis"
     }
