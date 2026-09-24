@@ -53,21 +53,21 @@ async function loadManifest() {
       downloadMac.classList.add("is-preferred");
     }
 
-    if (status) {
-      if (readyCount === 0) {
-        status.textContent =
-          "配布ファイルがまだありません。アプリ側で npm run publish:desktop を実行してください。";
-        status.classList.add("is-missing");
-      } else {
-        status.textContent =
-          os === "win"
-            ? "Windows 向けを強調しています。展開して TsukuruAI.exe を起動してください。"
-            : os === "mac"
-              ? "Mac 向けを強調しています。初回は右クリック → 開く、が必要なことがあります。"
-              : "Mac / Windows どちらもダウンロードできます。";
-        status.classList.add("is-ready");
+      if (status) {
+        if (readyCount === 0) {
+          status.textContent =
+            "配布ファイルがまだありません。アプリ側で npm run publish:desktop を実行してください。";
+          status.classList.add("is-missing");
+        } else {
+          status.textContent =
+            os === "win"
+              ? "Windows 向けを強調しています。セットアップを実行してインストールしてください。"
+              : os === "mac"
+                ? "Mac 向けを強調しています。DMG を開き、Applications へドラッグしてください。"
+                : "Mac は DMG、Windows はセットアップです。";
+          status.classList.add("is-ready");
+        }
       }
-    }
   } catch {
     if (status) {
       status.textContent =

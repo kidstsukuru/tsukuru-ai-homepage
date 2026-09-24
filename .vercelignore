@@ -1,3 +1,5 @@
 downloads/*.zip
+downloads/*.dmg
+downloads/*.exe
 .DS_Store
 .git
