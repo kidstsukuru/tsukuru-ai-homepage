@@ -1,13 +1,21 @@
 {
-  "version": "0.1.0",
-  "updatedAt": "2026-09-24T08:30:00.000Z",
-  "note": "Mac 用 ZIP（未署名・β）。本編 IDE 入り。初回は右クリック → 開く。起動後に OpenAI APIキーを設定してください。",
+  "version": "0.1.1",
+  "updatedAt": "2026-09-24T08:38:01.179070Z",
+  "note": "未署名の β 配布です。Mac は初回「右クリック → 開く」、Windows は SmartScreen で「詳細情報 → 実行」が必要なことがあります。起動後に OpenAI APIキーを設定してください。",
   "files": {
     "mac": {
-      "path": "https://github.com/kidstsukuru/tsukuru-ai-homepage/releases/download/v0.1.0/TsukuruAI-0.1.0-mac.zip",
-      "filename": "TsukuruAI-0.1.0-mac.zip",
-      "label": "TsukuruAI-0.1.0-mac.zip をダウンロードできます。",
-      "bytes": 191918725
+      "path": "https://github.com/kidstsukuru/tsukuru-ai-homepage/releases/download/v0.1.1/TsukuruAI-0.1.1-mac.zip",
+      "filename": "TsukuruAI-0.1.1-mac.zip",
+      "label": "TsukuruAI-0.1.1-mac.zip をダウンロードできます。",
+      "bytes": 191918770,
+      "platform": "mac"
+    },
+    "win": {
+      "path": "https://github.com/kidstsukuru/tsukuru-ai-homepage/releases/download/v0.1.1/TsukuruAI-0.1.1-win.zip",
+      "filename": "TsukuruAI-0.1.1-win.zip",
+      "label": "TsukuruAI-0.1.1-win.zip をダウンロードできます。",
+      "bytes": 210103913,
+      "platform": "win"
     }
   }
 }
