@@ -1,0 +1,10 @@
+{
+  "name": "tsukuru-ai-homepage",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ツクルAI 紹介・ダウンロードページ",
+  "scripts": {
+    "start": "npx --yes serve . -p 4173",
+    "dev": "npm start"
+  }
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ツクルAI — 子どもとつくるコーディング</title>
+    <meta
+      name="description"
+      content="ツクルAIは、設計から骨組み・肉付けまで一緒に進める子ども向けコーディングエージェントです。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=IBM+Plex+Sans+JP:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true"></div>
+
+    <header class="top">
+      <a class="brand" href="./">
+        <span class="brand-mark">ツ</span>
+        <span class="brand-name">ツクルAI</span>
+      </a>
+      <nav class="nav">
+        <a href="#about">紹介</a>
+        <a href="#download">ダウンロード</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">スクール向けコーディングエージェント</p>
+        <h1 class="hero-title">ツクルAI</h1>
+        <p class="hero-lead">
+          設計を話し、素朴な骨組みから育てる。<br />
+          子どもと一緒に「動くもの」をつくるデスクトップアプリです。
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#download">ダウンロード</a>
+          <a class="btn btn-ghost" href="#about">詳しく見る</a>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <h2>できること</h2>
+        <p class="section-lead">まずはシンプルに、つくる流れを体験できます。</p>
+        <ul class="points">
+          <li>
+            <strong>設計ワークショップ</strong>
+            <span>AI と話しながら DESIGN.md を具体化する</span>
+          </li>
+          <li>
+            <strong>骨組み → 肉付け</strong>
+            <span>最初は素朴に動かし、あとから育てる</span>
+          </li>
+          <li>
+            <strong>プレビューで確認</strong>
+            <span>作ったものはその場で動かして確かめる</span>
+          </li>
+        </ul>
+      </section>
+
+      <section id="download" class="section download">
+        <h2>ダウンロード</h2>
+        <p class="section-lead">
+          <strong>Desktop（β）</strong> — 本編 IDE 入り。起動後に OpenAI APIキーを設定すると、設計からコーディングまで使えます。
+        </p>
+
+        <div class="download-panel">
+          <div class="download-meta">
+            <div class="version" id="version-label">v0.1.0</div>
+            <p id="release-note">
+              Mac 用 ZIP（未署名・β）。初回は右クリック → 開く、が必要なことがあります。
+            </p>
+          </div>
+          <a
+            class="btn btn-primary btn-download"
+            id="download-mac"
+            href="./downloads/TsukuruAI-0.1.0-mac.zip"
+            download
+          >
+            Mac 版をダウンロード
+          </a>
+          <p class="download-hint" id="download-status">
+            配布 ZIP は GitHub Releases からも取得できます。更新はアプリ側の
+            <code>npm run publish:desktop</code>
+            です。
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© ツクルAI</span>
+      <span class="footer-muted">Homepage · 別フォルダ運用</span>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

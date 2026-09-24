@@ -1,0 +1,13 @@
+{
+  "version": "0.1.0",
+  "updatedAt": "2026-09-24T08:27:18.464Z",
+  "note": "Mac 用 ZIP（未署名・β）。本編 IDE 入り。初回は右クリック → 開く、が必要なことがあります。初回起動後に OpenAI APIキーを設定してください。",
+  "files": {
+    "mac": {
+      "path": "./downloads/TsukuruAI-0.1.0-mac.zip",
+      "filename": "TsukuruAI-0.1.0-mac.zip",
+      "label": "TsukuruAI-0.1.0-mac.zip をダウンロードできます。",
+      "bytes": 191918725
+    }
+  }
+}
