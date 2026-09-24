@@ -2,7 +2,12 @@
 
 ツクルAI の紹介・ダウンロード用サイト（アプリ本体とは別フォルダ）。
 
-## 見る
+## 公開 URL
+
+- サイト: Vercel デプロイ後の URL
+- Mac ZIP: https://github.com/kidstsukuru/tsukuru-ai-homepage/releases/download/v0.1.0/TsukuruAI-0.1.0-mac.zip
+
+## 見る（ローカル）
 
 ```bash
 cd "/Users/nemaseiya/Desktop/ツクルAI-homepage"
