@@ -1,7 +1,7 @@
 {
   "version": "0.2.1",
-  "updatedAt": "2026-09-24T14:21:38.102597Z",
-  "note": "Mac: DMG→Applications。『壊れている』と出たらターミナルで xattr -cr /Applications/ツクルAI.app か、DMG内『初回だけ実行』。Windows: セットアップ実行。APIキー設定不要。",
+  "updatedAt": "2026-09-28T02:28:52.459338Z",
+  "note": "Mac: DMG→Applications。『壊れている』と出たら xattr -cr /Applications/ツクルAI.app か、DMG内『初回だけ実行』。Windows: セットアップ実行。APIキー設定不要。最新の制作画面はアプリ起動時に自動で読み込まれます。",
   "files": {
     "mac": {
       "path": "https://github.com/kidstsukuru/tsukuru-ai-homepage/releases/download/v0.2.1/TsukuruAI-0.2.1-mac.dmg",

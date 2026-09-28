@@ -3,3 +3,10 @@ downloads/*.dmg
 downloads/*.exe
 .DS_Store
 .git
+.tsukuru
+docs
+assets/*PROMPT*.md
+assets/space-horizon.png
+assets/ice-planet.png
+assets/creative-world.png
+assets/creative-world.jpg
