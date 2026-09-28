@@ -1,20 +1,20 @@
 {
-  "version": "0.2.3",
-  "updatedAt": "2026-09-28T03:37:19.619526Z",
-  "note": "Mac: Applicationsへドラッグ後、初回だけ xattr -cr /Applications/TsukuruAI.app（大人のセットアップ）。Windows: セットアップ実行（SmartScreenは「詳細情報→実行」）。APIキー設定不要。",
+  "version": "0.2.4",
+  "updatedAt": "2026-09-28T04:06:56.073242Z",
+  "note": "Mac: Applicationsへドラッグ後、初回だけ xattr -cr /Applications/TsukuruAI.app。Windows: セットアップ実行（SmartScreenは詳細情報→実行）。接続先は https://tsukuru-ai-pink.vercel.app 。APIキー設定不要。",
   "files": {
     "mac": {
-      "path": "https://github.com/kidstsukuru/tsukuru-ai-homepage/releases/download/v0.2.3/TsukuruAI-0.2.3-mac.dmg",
-      "filename": "TsukuruAI-0.2.3-mac.dmg",
-      "label": "TsukuruAI-0.2.3-mac.dmg（Applications へドラッグ）",
-      "bytes": 191179451,
+      "path": "https://github.com/kidstsukuru/tsukuru-ai-homepage/releases/download/v0.2.4/TsukuruAI-0.2.4-mac.dmg",
+      "filename": "TsukuruAI-0.2.4-mac.dmg",
+      "label": "TsukuruAI-0.2.4-mac.dmg（Applications へドラッグ）",
+      "bytes": 191179515,
       "platform": "mac",
       "kind": "dmg"
     },
     "win": {
-      "path": "https://github.com/kidstsukuru/tsukuru-ai-homepage/releases/download/v0.2.3/TsukuruAI-0.2.3-win-setup.exe",
-      "filename": "TsukuruAI-0.2.3-win-setup.exe",
-      "label": "TsukuruAI-0.2.3-win-setup.exe（インストーラー）",
+      "path": "https://github.com/kidstsukuru/tsukuru-ai-homepage/releases/download/v0.2.4/TsukuruAI-0.2.4-win-setup.exe",
+      "filename": "TsukuruAI-0.2.4-win-setup.exe",
+      "label": "TsukuruAI-0.2.4-win-setup.exe（インストーラー）",
       "bytes": 147402678,
       "platform": "win",
       "kind": "nsis"
