@@ -1,7 +1,7 @@
 {
   "version": "0.2.3",
-  "updatedAt": "2026-09-28T03:13:59.070996Z",
-  "note": "Mac: DMGを開き、アプリを Applications へドラッグ。Windows: セットアップを実行。APIキー設定不要。",
+  "updatedAt": "2026-09-28T03:37:19.619526Z",
+  "note": "Mac: Applicationsへドラッグ後、初回だけ xattr -cr /Applications/TsukuruAI.app（大人のセットアップ）。Windows: セットアップ実行（SmartScreenは「詳細情報→実行」）。APIキー設定不要。",
   "files": {
     "mac": {
       "path": "https://github.com/kidstsukuru/tsukuru-ai-homepage/releases/download/v0.2.3/TsukuruAI-0.2.3-mac.dmg",
