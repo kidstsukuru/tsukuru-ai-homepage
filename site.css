@@ -109,6 +109,10 @@ h2 { font-size: clamp(28px, 3vw, 42px); font-weight: 500; letter-spacing: -.05em
 .install-help { border-block: 1px solid #cad4bf; margin-top: 28px; }
 .install-help summary { cursor: pointer; padding-block: 16px; font-size: 12px; }
 .install-help p { font-size: 12px; color: #616d57; padding-bottom: 18px; }
+
+.install-steps { margin: 0 0 14px; padding-left: 1.2em; font-size: 12px; color: #616d57; line-height: 1.8; }
+.install-steps code { display: inline-block; margin-top: 6px; padding: 6px 8px; background: #eef2e8; border-radius: 4px; font-size: 11px; }
+
 .contact-line { font-size: 11px; color: #68775f; margin-top: 24px; }
 .contact-line a { text-decoration: underline; text-underline-offset: 3px; }
 .consent-panel { background: #fbfcf7; border: 1px solid #d1dac6; padding: 32px; border-radius: 5px; }
